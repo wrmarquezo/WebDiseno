@@ -17,10 +17,12 @@ body{
 background-image: url(../img/bground.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+font-family: 'FRABKUNAD';
 }
-
+/*fuente unad*/
 h1{
 font-family: 'FRABKUNAD';
+text-align: center;
 	src:url('../fuentes/FRABK.eot'); /* http://www.fontsquirrel.com/ Internet explorer 7-8 (eot), Internet explorer 6 (embeded-opentype) , Firefox Chrome Safari Moderno (woff) , Safari Viejito (ttf) , Iphone Ipad(SVG) */ 
 	src:url('../fuentes/FRABK.eot?#iefix') format('embedded-opentype'), 
 		url('../fuentes/FRABK.woff') format('woff'),
@@ -28,20 +30,21 @@ font-family: 'FRABKUNAD';
 		url('../fuentes/FRABK.svg#FRABK') format('svg');
 	font-weight: normal;
 	font-style: normal;
+
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
-color: white;
+font-family: 'FRABKUNAD', serif;
+color: black;
 margin-left: 10px;
 font-size: 20px;
 text-align: left; 
 }
 
 h3{
-font-family: 'Shadows Into Light', cursive;;
+font-family: 'FRABKUNAD', serif;;
 color: white;
-font-size: 30px;
+font-size: 15px;
 text-align: center; 
 }
 
@@ -51,11 +54,11 @@ header{
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
 }
-
+/* barra de navegacion*/
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: rgba(0,102,128,1);
 border-radius: 10px;
 
 }
@@ -63,21 +66,21 @@ ul{
 margin: auto;
 padding-top: 4px;
 }
-
+/*botones*/
 li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: yellow;
+	background: rgba(242,184,13,1);
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
 
 }
-
+/*secciones*/
 section{
-	width: 700px;
-	background: gray;
+	width: 900px;
+	background: rgba(226,226,226,1);
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -85,9 +88,9 @@ section{
 }
 aside{
 
-	width: 280px;
+	width: 200px;
 	background: white;
-	height: 600px;
+	height: 200px;
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
@@ -97,7 +100,7 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: rgba(0,102,128,1);
 float: left;
 margin-top: 20px;
 border-radius: 10px;
@@ -121,10 +124,10 @@ p{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
-.menu:active{color: white; text-decoration: none;}
+.menu:link{color: black; text-decoration: none;}
+.menu:visited{color: black; text-decoration: none;}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: black; text-decoration: none;}
 
 /*SEUDO CLASES*/
 
