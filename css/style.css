@@ -14,17 +14,20 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
+background-image: url(../img/bground.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
-color: white;
-margin-left: 10px;
-font-size: 60px;
-text-align: center; 
+font-family: 'FRABKUNAD';
+	src:url('../fuentes/FRABK.eot'); /* http://www.fontsquirrel.com/ Internet explorer 7-8 (eot), Internet explorer 6 (embeded-opentype) , Firefox Chrome Safari Moderno (woff) , Safari Viejito (ttf) , Iphone Ipad(SVG) */ 
+	src:url('../fuentes/FRABK.eot?#iefix') format('embedded-opentype'), 
+		url('../fuentes/FRABK.woff') format('woff'),
+		url('../fuentes/FRABK.ttf') format('truetype'),
+		url('../fuentes/FRABK.svg#FRABK') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 h2{
@@ -65,7 +68,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: yellow;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
